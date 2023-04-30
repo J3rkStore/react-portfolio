@@ -5,23 +5,27 @@ import Contact from "./Contact";
 import Resume from "./Resume";
 
 function Navigation() {
+  const [content, setContent] = useState();
+  //to do: setContent(About) for default
+
   return (
     <div>
       <h1>🧭NAVIGATION🔭</h1>
       <ul>
         <li>
-          <button>About me</button>
+          <p onClick={() => setContent(About)}>About me</p>
         </li>
         <li>
-          <button>Portfolio</button>
+          <p onClick={() => setContent(Project)}>Portfolio</p>
         </li>
         <li>
-          <button>Contact</button>
+          <p onClick={() => setContent(Contact)}>Contact</p>
         </li>
         <li>
-          <button>Resume</button>
+          <p onClick={() => setContent(Resume)}>Resume</p>
         </li>
       </ul>
+      <div>{content}</div>
     </div>
   );
 }

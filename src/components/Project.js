@@ -1,7 +1,12 @@
-import React, { useState } from "react";
+//import React, { useState } from "react";
 
 function Project() {
-  return <div>insert portfolio stuff</div>;
+  return (
+    <div>
+      <h2> Portfolio </h2>
+      <p>insert portfolio stuff</p>;
+    </div>
+  );
 }
 
 export default Project;

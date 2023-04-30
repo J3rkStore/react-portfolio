@@ -1,7 +1,12 @@
-import React, { useState } from "react";
+//import React, { useState } from "react";
 
 function Contact() {
-  return <div>insert contact form</div>;
+  return (
+    <div>
+      <h2>Contact Me</h2>
+      <p>insert contact form</p>
+    </div>
+  );
 }
 
 export default Contact;
