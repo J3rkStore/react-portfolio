@@ -3,6 +3,7 @@ import About from "./About";
 import Project from "./Project";
 import Contact from "./Contact";
 import Resume from "./Resume";
+import Portfolio from "./Portfolio";
 
 function Navigation() {
   const [content, setContent] = useState();
@@ -10,13 +11,12 @@ function Navigation() {
 
   return (
     <div>
-      <h1>🧭NAVIGATION🔭</h1>
-      <ul>
+      <ul className="nav-list">
         <li>
           <p onClick={() => setContent(About)}>About me</p>
         </li>
         <li>
-          <p onClick={() => setContent(Project)}>Portfolio</p>
+          <p onClick={() => setContent(Portfolio)}>Portfolio</p>
         </li>
         <li>
           <p onClick={() => setContent(Contact)}>Contact</p>
@@ -25,7 +25,7 @@ function Navigation() {
           <p onClick={() => setContent(Resume)}>Resume</p>
         </li>
       </ul>
-      <div>{content}</div>
+      <main>{content}</main>
     </div>
   );
 }
