@@ -3,7 +3,7 @@
 function Project() {
   return (
     <div>
-      <h2> Portfolio </h2>
+      <h2> Project name </h2>
       <p>insert portfolio stuff</p>
     </div>
   );

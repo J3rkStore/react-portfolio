@@ -1,10 +1,12 @@
 //import React, { useState } from "react";
+import App from "../app";
 
 function Footer() {
   return (
-    <div>
-      <h1>👡FOOTER🦶</h1>
-    </div>
+    <footer>
+      <h2>👡FOOTER🦶</h2>
+      <div>{App.content}</div>
+    </footer>
   );
 }
 
