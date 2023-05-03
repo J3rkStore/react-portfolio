@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import About from "./About";
-import Project from "./Project";
+
 import Contact from "./Contact";
 import Resume from "./Resume";
 import Portfolio from "./Portfolio";
@@ -13,7 +13,7 @@ function Navigation() {
     <div>
       <ul className="nav-list">
         <li>
-          <p onClick={() => setContent(About)}>About me</p>
+          <p onClick={() => setContent(About)}>About Me</p>
         </li>
         <li>
           <p onClick={() => setContent(Portfolio)}>Portfolio</p>
