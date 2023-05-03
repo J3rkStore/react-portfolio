@@ -13,6 +13,14 @@ function Resume() {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.{" "}
       </p>
+      <a
+        className="resume-link"
+        href="https://drive.google.com/file/d/1UCuMDvAUD-h34TfrMnAL39ZACsDuhDei/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Google Drive Download
+      </a>
     </div>
   );
 }

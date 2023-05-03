@@ -1,0 +1,92 @@
+#bloggert {
+    background-image: url("../images/bloggertScreen.png");
+}
+
+#weatheringo {
+    background-image: url("../images/toad-smoker-crop.png");
+}
+
+#skyJam {
+    background-image: url("../images/skyJamScreen.png");
+}
+
+#schedulord {
+    background-image: url("../images/schedulord.png");
+}
+
+#vectoringo {
+    background-image: url("../images/svgSample.png");
+}
+
+.full-contain {
+    margin: 10px;
+    margin-top: 30px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-container {
+    height: 200px;
+    width: 200px;
+    border: #61618b;
+    border-style: dashed;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#73a2be00;
+    font-size: 0px;
+}
+
+.project-container:hover {
+    /* border: #ffffff;
+    border-style: dashed; */
+    box-shadow: #d5e5ee 10px 10px 50px;
+    font-size: xx-large;
+
+    color:#73a3be;
+
+    /* background: #000000; */
+    text-shadow: #c5b71b 0px 0px 50px;
+}
+
+.project-description {
+
+    background-color: #000000e7;
+    background: linear-gradient(to left top, #777676eb,#141414e0);
+    padding: 5px;
+    
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.p-link {
+    font-family: 'Orbitron', sans-serif;
+    color:#73a3be;
+    text-decoration: none;
+    background: linear-gradient(to top, #9c546050,  #9c546000 );
+    margin: 6px;
+    margin-top: 10px;
+}
+
+.p-link:hover {
+    color: hsl(350, 30%, 80%);
+    text-shadow: #b4b1bc 0px -15px 2px, #b4b1bc 0px 15px 2px,#b4b1bcae 0px -29px 3px, #b4b1bcae 0px 29px 3px, #b4b1bc78 0px 42px 4px, #b4b1bc78 0px -42px 4px, #b4b1bc39 0px -54px 5px, #b4b1bc39 0px 54px 5px, #b4b1bc21 0px -65px 6px, #b4b1bc21 0px 65px 6px, #b4b1bc14 0px 75px 7px, #b4b1bc14 0px -75px 7px, #b4b1bc09 0px 84px 8px, #b4b1bc09 0px -84px 8px, #b4b1bc06 0px 72px 9px, #b4b1bc06 0px -72px 9px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .project-container {
+        height: 300px;
+    width: 300px;
+    }
+}
