@@ -1,5 +1,4 @@
-//import React, { useState } from "react";
-import App from "../app";
+import "../css/footer.css";
 
 function Footer() {
   return (

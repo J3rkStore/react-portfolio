@@ -1,4 +1,4 @@
-//import React, { useState } from "react";
+import "../css/resume.css";
 
 function Resume() {
   return (
@@ -19,7 +19,7 @@ function Resume() {
         target="_blank"
         rel="noreferrer"
       >
-        Google Drive Download
+        Click here to view and download
       </a>
     </div>
   );
