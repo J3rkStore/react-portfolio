@@ -79,7 +79,9 @@
 
 .p-link:hover {
     color: hsl(350, 30%, 80%);
-    text-shadow: #b4b1bc 0px -15px 2px, #b4b1bc 0px 15px 2px,#b4b1bcae 0px -29px 3px, #b4b1bcae 0px 29px 3px, #b4b1bc78 0px 42px 4px, #b4b1bc78 0px -42px 4px, #b4b1bc39 0px -54px 5px, #b4b1bc39 0px 54px 5px, #b4b1bc21 0px -65px 6px, #b4b1bc21 0px 65px 6px, #b4b1bc14 0px 75px 7px, #b4b1bc14 0px -75px 7px, #b4b1bc09 0px 84px 8px, #b4b1bc09 0px -84px 8px, #b4b1bc06 0px 72px 9px, #b4b1bc06 0px -72px 9px;
+    text-shadow: var(--link-shadow);
+    animation-name: wackyShadow;
+    animation-duration: 1s;
     font-weight: bold;
 }
 
