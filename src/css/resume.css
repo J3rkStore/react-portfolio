@@ -1,10 +1,33 @@
+@keyframes shadowGrowFade {
+    0% {
+        text-shadow:#b4b1bc 0px 5px 10px, #b4b1bc 0px -5px 10px
+        ;
+    }
+
+
+    50% {
+        text-shadow:#dbdadf 0px 6px 10px, #dbdadf 0px -6px 11px 
+        ;
+    }
+
+
+    100% {
+        text-shadow:#b4b1bc 0px 5px 10px, #b4b1bc 0px -5px 10px
+        ;
+    }
+
+}
+
+
+
 .resume-link {
     color: #b4b1bc;
     text-decoration: none;
+    animation: shadowGrowFade 0.5s linear infinite;
 }
 
 .resume-link:hover {
-    color: #9c5460;
+    color: #b4b1bc;
     text-decoration: underline;
     font-weight: 900;
 }

@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <a
-        href="https://github.com/J3rkStore"
+        href="https://github.com/J3rkStore/reactoringo"
         target="_blank"
         rel="noreferrer"
         className="link-card github"
