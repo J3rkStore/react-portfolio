@@ -26,6 +26,13 @@
     text-align: center;
 }
 
+@keyframes projectText {
+    from {font-size: 0px;
+        color:#73a2be00;}
+    to {font-size: xx-large;
+        color:#73a3be;}
+}
+
 .project-container {
     height: 200px;
     width: 200px;
@@ -39,10 +46,13 @@
 }
 
 .project-container:hover {
-    /* border: #ffffff;
-    border-style: dashed; */
+    border: #b4b1bc;
+    border-style: dashed;
+    animation-name: projectText;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
     box-shadow: #d5e5ee 10px 10px 50px;
-    font-size: xx-large;
+    font-size: 30px;
 
     color:#73a3be;
 
@@ -51,6 +61,8 @@
 }
 
 .project-description {
+    margin-left: 3px;
+    margin-right: 3px;
 
     background-color: #000000e7;
     background: linear-gradient(to left top, #777676eb,#141414e0);

@@ -6,7 +6,7 @@ import Navigation from "./components/Navigation";
 function App() {
   return (
     //jsx fragment shown with the <></> element that wraps both divs.  All JSX components need a parent element (in common?)
-    <div className="comonents">
+    <div className="components">
       <header className="app-header">
         <Header />
       </header>

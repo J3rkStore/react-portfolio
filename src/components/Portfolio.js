@@ -46,7 +46,7 @@ function Portfolio() {
     {
       name: "vectoringo",
       header: "Vectoringo",
-
+      link: "https://github.com/J3rkStore/vectoringo-logo-generator",
       rLink: "https://github.com/J3rkStore/vectoringo-logo-generator",
       image: svgSample,
       description: "Uses Inquirer to turn your prompts into an SVG image",
