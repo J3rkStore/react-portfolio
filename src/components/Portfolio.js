@@ -5,9 +5,20 @@ import toadScreen from "../images/toad-smoker-crop.png";
 import skyJamScreen from "../images/skyJamScreen.png";
 import schedulordScreen from "../images/schedulord.png";
 import svgSample from "../images/svgSample.png";
+import uniquistScreen from "../images/uniquist-home.png";
+import Spotify from "./Spotify";
 
 function Portfolio() {
   const projectData = [
+    {
+      name: "uniquist",
+      header: "UNIQUIST",
+      link: "https://immense-earth-43761.herokuapp.com/",
+      rLink: "https://github.com/bbairdgen/uniquist",
+      image: uniquistScreen,
+      description: "Band Name Tool - MERN Stack",
+    },
+
     {
       name: "bloggert",
       header: "Bloggert",
