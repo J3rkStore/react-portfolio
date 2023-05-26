@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/reactoringo/static/css/main.775a86b1.css",
-    "main.js": "/reactoringo/static/js/main.c19d513b.js",
+    "main.css": "/reactoringo/static/css/main.f5de3a46.css",
+    "main.js": "/reactoringo/static/js/main.b8a61eda.js",
     "static/media/skyJamScreen.png": "/reactoringo/static/media/skyJamScreen.d2cbc40613b664146f5a.png",
     "static/media/toad-smoker-crop.png": "/reactoringo/static/media/toad-smoker-crop.5776917f9646cafe8a5a.png",
+    "static/media/uniquist-home.png": "/reactoringo/static/media/uniquist-home.2c48189dee2b57e0e1f7.png",
     "static/media/schedulord.png": "/reactoringo/static/media/schedulord.78c8eab4333a287430fb.png",
     "static/media/bloggertScreen.png": "/reactoringo/static/media/bloggertScreen.d1152f5b806908d5b1a8.png",
     "static/media/svgSample.png": "/reactoringo/static/media/svgSample.e50e673ae4de9b360f40.png",
     "static/media/github-mark-white.svg": "/reactoringo/static/media/github-mark-white.97ed8e7eef60d61ca469.svg",
     "index.html": "/reactoringo/index.html",
-    "main.775a86b1.css.map": "/reactoringo/static/css/main.775a86b1.css.map",
-    "main.c19d513b.js.map": "/reactoringo/static/js/main.c19d513b.js.map"
+    "main.f5de3a46.css.map": "/reactoringo/static/css/main.f5de3a46.css.map",
+    "main.b8a61eda.js.map": "/reactoringo/static/js/main.b8a61eda.js.map"
   },
   "entrypoints": [
-    "static/css/main.775a86b1.css",
-    "static/js/main.c19d513b.js"
+    "static/css/main.f5de3a46.css",
+    "static/js/main.b8a61eda.js"
   ]
 }
