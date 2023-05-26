@@ -18,6 +18,12 @@
     background-image: url("../images/svgSample.png");
 }
 
+#uniquist {
+    background-image: url("../images/uniquist-home.png");
+}
+
+
+
 .full-contain {
     margin: 10px;
     margin-top: 30px;
