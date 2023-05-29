@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactoringo/static/css/main.f5de3a46.css",
+    "main.css": "/reactoringo/static/css/main.a2bd0e24.css",
     "main.js": "/reactoringo/static/js/main.b8a61eda.js",
     "static/media/skyJamScreen.png": "/reactoringo/static/media/skyJamScreen.d2cbc40613b664146f5a.png",
     "static/media/toad-smoker-crop.png": "/reactoringo/static/media/toad-smoker-crop.5776917f9646cafe8a5a.png",
@@ -10,11 +10,11 @@
     "static/media/svgSample.png": "/reactoringo/static/media/svgSample.e50e673ae4de9b360f40.png",
     "static/media/github-mark-white.svg": "/reactoringo/static/media/github-mark-white.97ed8e7eef60d61ca469.svg",
     "index.html": "/reactoringo/index.html",
-    "main.f5de3a46.css.map": "/reactoringo/static/css/main.f5de3a46.css.map",
+    "main.a2bd0e24.css.map": "/reactoringo/static/css/main.a2bd0e24.css.map",
     "main.b8a61eda.js.map": "/reactoringo/static/js/main.b8a61eda.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5de3a46.css",
+    "static/css/main.a2bd0e24.css",
     "static/js/main.b8a61eda.js"
   ]
 }
