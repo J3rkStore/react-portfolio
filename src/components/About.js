@@ -3,25 +3,21 @@
 function About() {
   return (
     <div>
-      <h2>About Me</h2>
+      <h2>About</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Hello! I'm Taran. I made this website about me. Narcisism much? Yes!
+      </p>
+
+      <p>
+        I am a fullstack web developer with experience in React, MongoDB,
+        GraphQL, MongoDB, and more.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        I have over 10 years IT experience and I'm working to make web
+        developement my primary full-time ocupation by building interesting
+        front ends supported by efficient backends
       </p>
+      <p>Go to the Portfolio section of this site to see my projects</p>
     </div>
   );
 }
