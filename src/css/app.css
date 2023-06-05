@@ -21,7 +21,6 @@
 }
 
 body {
-    
     font-family: 'Raleway', sans-serif;
     color:#73a3be;
     background: linear-gradient(0deg,  hsl(234, 19%, 20%), hsl(226, 15%, 15%),hsl(236, 14%, 8%), hsl(240, 9%, 3%), hsl(226, 15%, 15%), hsl(234, 19%, 20%));
@@ -32,17 +31,6 @@ body {
     margin-bottom: 20px;
     
 }
-
-/* @keyframes backgroundFade {
-    0% {background: #435d5f00;}
-    50% {background: #435d5f28;}
-    100% {background: #435d5f01;}
-}
-
-.components {
-    background: #435d5f28;
-    animation: backgroundFade 10s linear infinite;
-} */
 
 h1, h2, h3 {
     font-family: 'Orbitron', sans-serif;
@@ -87,6 +75,7 @@ header {
 }
 
 .component-container {
+    min-height: 50%;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -94,6 +83,8 @@ header {
     text-align: center;
 
 }
+
+
 
 .contact-form {
     display: flex;

@@ -10,12 +10,14 @@ function About() {
 
       <p>
         I am a fullstack web developer with experience in React, MongoDB,
-        GraphQL, MongoDB, and more.
+        GraphQL, MongoDB, and more. I recently graduated from the University of
+        Utah's fullstack coding bootcamp and focused on learning and practicing
+        my skills as much as possible
       </p>
       <p>
         I have over 10 years IT experience and I'm working to make web
         developement my primary full-time ocupation by building interesting
-        front ends supported by efficient backends
+        front ends supported by effective backends
       </p>
       <p>Go to the Portfolio section of this site to see my projects</p>
     </div>
