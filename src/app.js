@@ -13,10 +13,7 @@ function App() {
       <div className="app-navigation">
         <Navigation />
       </div>
-      <main>
-        {console.log("hey hey ", Navigation.content)}
-        <div></div>
-      </main>
+
       <div className="app-footer">
         <Footer />
       </div>
