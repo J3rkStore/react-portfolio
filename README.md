@@ -4,7 +4,10 @@
 
 ## Description
 
-Portfolio site built with React
+Portfolio site built with React to showcase my work
+
+![image](https://github.com/J3rkStore/reactoringo/assets/59859758/ac0dc119-e2fd-4e64-98c9-8401611af1a2)
+
 
 ## Table of Contents
 
