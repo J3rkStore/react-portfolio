@@ -13,7 +13,7 @@ function Portfolio() {
     {
       name: "uniquist",
       header: "UNIQUIST",
-      link: "https://immense-earth-43761.herokuapp.com/",
+      link: "https://github.com/bbairdgen/uniquist",
       rLink: "https://github.com/bbairdgen/uniquist",
       image: uniquistScreen,
       description: "Band Name Tool - MERN Stack",
@@ -25,7 +25,7 @@ function Portfolio() {
       link: "https://bloggert.herokuapp.com/",
       rLink: "https://github.com/J3rkStore/bloggert",
       image: bloggertScreen,
-      description: "Forum deployed to heroku using MongoDB, handlebars, MVC",
+      description: "Forum using MySQL, handlebars, MVC",
     },
     {
       name: "weatheringo",
